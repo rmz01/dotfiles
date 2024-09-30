@@ -1,13 +1,12 @@
 [user]
-	email = aaronrmzz2000@gmail.com
-	name = rmz
+	email = alu0101438238@ull.edu.es
+	name = rmz01
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
-
 [color]
 	status = auto
 	diff = auto
