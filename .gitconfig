@@ -1,0 +1,28 @@
+[user]
+	email = aaronrmzz2000@gmail.com
+	name = rmz
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+
+[color]
+	status = auto
+	diff = auto
+[merge]
+	tool = vimdiff
+[alias]
+	lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr %an)%Creset' --abbrev-commit --date=relative
+	wipe = "!git reset --hard;git clean -fd"
+	co = checkout
+	ci = commit
+  lsb = ls-tree --name-only -r 
+  lsalias = config --get-regexp alias
+  dir = ls-tree --name-only -r
+[core]
+	autocrlf = input
+	pager = less -F -X
+[difftool "sourcetree"]
+apb-imai-hsq
