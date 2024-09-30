@@ -12,4 +12,4 @@ gh alias set pwd '!gh config get current-org'
 #gh extension install github/gh-classroom
 #gh extension install github/gh-copilot
 gh extension install gh-cli-for-education/gh-org-teams
-gh extension install crgue
+gh extension install crguezl/gh-org-clone
